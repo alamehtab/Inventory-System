@@ -333,7 +333,7 @@ Example request:
 ```json
 {
  "username":"admin",
- "password":"password"
+ "password":"admin123"
 }
 ```
 
@@ -466,7 +466,7 @@ npm run dev
 Backend:
 
 ```
-http://localhost:5000
+https://inventory-system-1-rt5b.onrender.com/
 ```
 
 ---
@@ -488,7 +488,7 @@ npm install
 Create `.env`:
 
 ```
-VITE_API_URL=http://localhost:5000/api
+VITE_API_URL=https://inventory-system-1-rt5b.onrender.com/api
 ```
 
 Run frontend:
@@ -500,7 +500,7 @@ npm run dev
 Frontend:
 
 ```
-http://localhost:5173
+https://inventory-system-1-rt5b.onrender.com/api
 ```
 
 ---
