@@ -500,7 +500,7 @@ npm run dev
 Frontend:
 
 ```
-https://inventory-system-1-rt5b.onrender.com/api
+https://inventory-system-l77m24bxe-mehtab-alams-projects-b6c495d4.vercel.app/
 ```
 
 ---
