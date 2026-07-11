@@ -530,6 +530,27 @@ node producer.js
 
 ---
 
+# Kafka Producer / Simulator Setup
+
+Kafka files are located at:
+
+backend/src/kafka
+
+Files:
+
+- producer.js → Publishes inventory events
+- consumer.js → Consumes inventory events
+- simulator.js → Generates sample purchase and sale events
+
+Run simulator locally:
+
+```bash
+cd backend
+
+npm install
+
+node src/kafka/simulator.js
+
 # Project Highlights
 
 This project demonstrates:
