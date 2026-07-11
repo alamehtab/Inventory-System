@@ -15,7 +15,7 @@ async function seedAdmin() {
         );
 
         if (existingUser.rows.length > 0) {
-            console.log("✅ Admin user already exists.");
+            console.log("Admin user already exists.");
             process.exit(0);
         }
 
@@ -27,7 +27,7 @@ async function seedAdmin() {
             [username, hashedPassword]
         );
 
-        console.log("✅ Admin user created successfully.");
+        console.log("Admin user created successfully.");
         console.log("Username:", username);
         console.log("Password:", password);
 
